@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'PoppinsExtraBold';
+    src: url('../assets/Poppins/Poppins-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'PoppinsRegular';
+    src: url('../assets/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'PoppinsSemiBold';
+    src: url('../assets/Poppins/Poppins-SemiBold.ttf');
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 10px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold 500;
+}
