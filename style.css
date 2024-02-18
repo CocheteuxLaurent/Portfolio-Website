@@ -66,12 +66,12 @@ section {
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .content-img {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 
 .content-img img {
@@ -80,19 +80,9 @@ section {
     object-fit: contain;
 }
 
-.content-text span {
-    padding: 5px 25px;
-    background-color: #F3BE1A;
-    color: black;
-    font-weight: 700;
-    font-size: 15px;
-    border-radius: 20px;
-    border: 1px solid black;
-}
-
 .home-text h1 {
     font-size: 20;
-    margin: 23px 0;
+    margin: 20px 20px;
     font-weight: bold 500;
     color: black;
 }
@@ -102,14 +92,23 @@ section {
     color: black;
     line-height: 20px;
     margin-bottom: 20px;
+    padding-top: 20px;
 }
 
-.btnCV {
+.btn {
     display: inline-block;
     padding: 10px 10px;
     background-color: #F3BE1A;
     color: black;
     border: 2px solid black;
     font-size: 16px;
-    border-radius: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background: transparent;
+    color: #F3BE1A;
+    border: 2px solid #F3BE1A;
 }
